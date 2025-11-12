@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luxora — Powering a Smarter World</title>
+  <meta name="description" content="Luxora — Electric vehicle concepts and prototypes. Powering a smarter world." />
+  <link rel="icon" href="IMG_3148.jpeg" />
+  <style>
+    :root {
+      --bg:#0f1724; --card:#0b1220; --accent:#00d1ff; --muted:#9aa7b2;
+      --radius:14px; --maxw:1100px; --ff:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue';
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; font-family:var(--ff);
+      background:linear-gradient(180deg,#071026 0%, #071a2b 100%);
+      color:#e6eef6; line-height:1.45;
+    }
+    .container { max-width:var(--maxw); margin:0 auto; padding:28px; }
+    header { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 0; }
+    .brand { display:flex; align-items:center; gap:12px; }
+    .brand img { width:60px; height:60px; border-radius:12px; }
+    nav { display:flex; gap:18px; align-items:center; }
+    nav a { color:var(--muted); text-decoration:none; font-weight:600; }
+    .cta { background:linear-gradient(90deg,var(--accent),#7b61ff); padding:10px 14px; border-radius:10px; color:#012; font-weight:700; text-decoration:none; }
+    .hero { display:grid; grid-template-columns:1fr 420px; gap:36px; align-items:center; padding:60px 0; }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:0.06em; }
+    h1 { font-size:42px; margin:12px 0 8px; }
+    p.lead { color:var(--muted); font-size:16px; max-width:640px; }
+    .section { padding:56px 0; }
+    .muted { color:var(--muted); }
+    footer { border-top:1px solid rgba(255,255,255,0.03); padding:20px 0; margin-top:36px; color:var(--muted); }
+    .mail { background:linear-gradient(90deg,var(--accent),#7b61ff); padding:14px 18px; border-radius:12px; color:#002; font-weight:800; text-decoration:none; }
+    @media (max-width:900px) { .hero { grid-template-columns:1fr; } nav { display:none; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img src="IMG_3148.jpeg" alt="Luxora Logo" />
+        <div>
+          <div style="font-weight:800;font-size:20px">Luxora</div>
+          <div style="font-size:12px;color:var(--muted)">Powering a Smarter World</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="mailto:ndawanab4g@gmail.com">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div>
+          <div class="eyebrow">Electric Vehicles • Research & Prototypes</div>
+          <h1>Luxora — Powering a Smarter World</h1>
+          <p class="lead">Designing next-generation electric vehicles that combine elegant engineering, sustainable energy, and intelligent systems. Luxora is built by students and driven by visionaries who believe in transforming ideas into impact.</p>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About Luxora</h2>
+        <p class="muted">Luxora is a student-born engineering initiative focused on electric vehicle innovation. We blend mechanical design, power electronics, embedded software, and AI-driven efficiency to create practical, sustainable mobility solutions.</p>
+
+        <p class="muted"><strong>About the Founder:</strong> Benjamin Ndawana, a Mechanical Engineering student at Noida International University, is on a mission to transform ideas into impact. Through his startup initiative <em>Luxora</em>, he’s building the next generation of electric vehicles — combining creativity, sustainability, and engineering excellence to power a smarter world.</p>
+
+        <h3 style="margin-top:30px">Vision</h3>
+        <p class="muted">To create a world where electric mobility is not just an option, but a standard — efficient, affordable, and inspiring. Luxora envisions a future powered by smart, sustainable vehicles that blend technology, creativity, and responsible design to make transportation cleaner and smarter for everyone.</p>
+
+        <h3 style="margin-top:20px">Mission</h3>
+        <p class="muted">To engineer and prototype next-generation electric vehicles that embody innovation, sustainability, and practicality. Luxora aims to empower students and young engineers to design energy-efficient systems, build modular EV platforms, and advance research that contributes to a cleaner and more connected world.</p>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p class="muted">For collaborations, mentorship, or to join Luxora as a teammate — reach out.</p>
+        <a class="mail" href="mailto:ndawanab4g@gmail.com">Email: ndawanab4g@gmail.com</a>
+      </section>
+    </main>
+
+    <footer>
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap">
+        <div>© Luxora — Powering a Smarter World</div>
+        <div style="color:var(--muted)">Founded by Benjamin Ndawana, Mechanical Engineering Student, Noida International University • <a href="mailto:ndawanab4g@gmail.com" style="color:var(--muted); text-decoration:underline">ndawanab4g@gmail.com</a></div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
